@@ -12,5 +12,6 @@ install_mysql:
     - pkgs:
       - mysql-server
       - mysql-client
+      - php-mysql
 
 #MOVE PASSWORD TO A PILLAR IF NEEDED
