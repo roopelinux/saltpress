@@ -1,5 +1,17 @@
-wget https://wordpress.org/latest.tar.gz:
-  cmd.run
+#Made by Roope Varttila 2018
 
-#tar -xzvf ../downloads/latest.tar.gz:
-#  cmd.run
+# Get the tervapallo
+
+getwordpress:
+  cmd.run:
+    - name: https://wordpress.org/latest.tar.gz -P /var/www/html/
+
+# Unpack the tervapallo
+
+tarwordpress:
+  archive.extracted:
+    - name: /var/www/html/    
+    - source: /var/www/html/latest.tar.gz
+    - archive_format: tar
+
+
