@@ -8,7 +8,7 @@ apache2restart:
   service.running:
     - name: apache2
 
-/etc/apache2/mods-enabled/userdir.load:
+/etc/apache2/mods-enabled/rewrite.load:
   file.symlink:
     - target: ../mods-available/rewrite.load
 
