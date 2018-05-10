@@ -4,13 +4,13 @@
 
 getwordpress:
   cmd.run:
-    - name: https://wordpress.org/latest.tar.gz -P /var/www/html/
+    - name: wget https://wordpress.org/latest.tar.gz -P /var/www/html/
 
 # Unpack the tervapallo
 
 tarwordpress:
   archive.extracted:
-    - name: /var/www/html/    
+    - name: /var/www/html/wordpress    
     - source: /var/www/html/latest.tar.gz
     - archive_format: tar
 
