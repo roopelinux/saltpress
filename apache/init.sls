@@ -16,4 +16,4 @@ apache2restart2:
   service.running:
     - name: apache2
     - watch:
-- file: /etc/apache2/mods-enabled/rewrite.load
+      - file: /etc/apache2/mods-enabled/rewrite.load
