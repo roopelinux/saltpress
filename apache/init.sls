@@ -7,6 +7,14 @@ install_ap:
     - pkgs:
       - apache2
       - libapache2-mod-php
+      - php
+      - php-cli
+      - php-common
+      - php-curl
+      - php-mysql
+      - php-mcrypt
+      - php-json
+      - php-mbstring
 
 # Enable the rewrite-mod that is needed for Wordpress.
 
