@@ -15,11 +15,13 @@ You can use it for stuff like trying out a new plugin or theme you're working on
 
 #### If you need to access Mysql the set credentials are
   
-  user: root
-  password: testi123
+    user: root
+  
+    password: testi123
 
-  user: wordpress
-  password: wordpress
+    user: wordpress
+  
+    password: wordpress
 
 ## How do I use saltpress?
 
