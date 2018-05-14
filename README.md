@@ -38,7 +38,7 @@ firefox 'localhost'
 
 Known to work on Xubuntu 16.04.4 LTS x64 live-USB, so if you find a problem on another distribution of Linux do tell me.
 
-Originally I was planning on making the Wordpress user to preseeded, but decided it makes more sense for the user to set them by themselves. It only takes a couple seconds and makes more sense.
+Originally I was planning on making the Wordpress user and password to preseeded, but decided it makes more sense for the user to set them by themselves since it only takes a couple seconds.
 
 I'll answer each and every question/problem you have or if you just want to contact me, you can do so [on my site](https://roopelinux.wordpress.com/info-stuff/) or by reporting an issue here on Github. All feedback is appreciated!
 
