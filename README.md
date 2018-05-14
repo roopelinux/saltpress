@@ -14,15 +14,15 @@ You can use it for stuff like trying out a new plugin or theme you're working on
 ## How do I use saltpress?
 
 Clone the repository and move to the cloned directory
-´´´bash
+```bash
 git clone https://github.com/roopelinux/saltpress.git
 cd saltpress
-´´´
+```
 Run the installation script and go to "localhost" in the browser you use
-´´´bash
+```bash
 sudo bash saltpress.sh
 firefox localhost
-´´´
+```
 
 ## Notes
 
