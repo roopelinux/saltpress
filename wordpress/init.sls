@@ -31,8 +31,3 @@ rmapacheindex:
   cmd.run:
     - name: sudo rm /var/www/html/index.html
 
-# Config file with correct database info
-
-/var/www/html/wp-config.php:
-  file.managed:
-    - source: ../saltpress/wordpress/wp-config.php
