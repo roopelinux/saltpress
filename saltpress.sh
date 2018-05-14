@@ -10,3 +10,5 @@ mkdir /srv/salt
 sudo salt-call --local state.highstate --file-root .
 
 cp wordpress/wp-config.php /var/www/html/
+
+chown -R www-data:root /var/www
