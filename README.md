@@ -20,7 +20,7 @@ cd saltpress
 ```
 Run the installation script and go to "localhost" in the browser you use
 ```bash
-sudo bash saltpress.sh
+sudo ./saltpress.sh
 firefox localhost
 ```
 
