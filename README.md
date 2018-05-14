@@ -13,7 +13,7 @@ The URL is set to localhost so the themes/plugins you install won't show on othe
 
 You can use Saltpress for stuff like trying out a new plugin or theme you're working on for Wordpress and need a fresh install.
 
-#### If you need to access Mysql the set credentials are
+### If you need to access Mysql the set credentials are
   
     user: root
   
